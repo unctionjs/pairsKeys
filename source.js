@@ -1,3 +1,6 @@
-export default function tempLate (alpha: mixed): mixed {
-  return alpha
+import {head} from "ramda"
+import {map} from "ramda"
+
+export default function pairsKeys (pairs: Array<[string, any]>): Array<string> {
+  return map(head, pairs)
 }
