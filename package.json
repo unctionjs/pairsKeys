@@ -47,6 +47,7 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "ramda": "0.24.1",
+    "@unction/mapvalues": "*"
   }
 }
