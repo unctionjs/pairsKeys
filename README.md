@@ -1,11 +1,10 @@
 # @unction/pairsKeys
 
-
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<[string, any]> => Array<string>
+> Array<[KeyType, ValueType]> => ArrayType<KeyType>
 
 Takes an array that looks like a list of pairs (key, values) and returns all the keys.
 
@@ -52,6 +51,5 @@ You would get the following:
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/pairsKeys.svg?maxAge=2592000&style=flat-square
-
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
 [BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/pairsKeys.svg?maxAge=2592000&style=flat-square
