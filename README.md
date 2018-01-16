@@ -5,7 +5,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<[string, any]> -> Array<string>
+> Array<[string, any]> => Array<string>
 
 Takes an array that looks like a list of pairs (key, values) and returns all the keys.
 
