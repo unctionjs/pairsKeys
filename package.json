@@ -51,7 +51,7 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/mapvalues": "9.0.0",
+    "@unction/mapvalues": "10.1.0",
     "ramda": "0.24.1"
   },
   "nyc": {
