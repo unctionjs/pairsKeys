@@ -52,7 +52,6 @@
   },
   "dependencies": {
     "@unction/mapvalues": "10.5.0",
-    "core-js": "3.0.1",
     "ramda": "0.24.1"
   },
   "nyc": {
