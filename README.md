@@ -4,9 +4,9 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<[KeyType, ValueType]> => ArrayType<KeyType>
+> ListType<[A, B]> => ListType<A>
 
-Takes an array that looks like a list of pairs (key, values) and returns all the keys.
+Takes an list that looks like a list of pairs (key, values) and returns all the keys.
 
 Lets say you have this data:
 
