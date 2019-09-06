@@ -1,7 +1,7 @@
 
 import pairsKeys from "./index";
 
-test(() => {
+test("works", () => {
   expect(pairsKeys([
     ["a", "b"],
     ["c", "d"],
