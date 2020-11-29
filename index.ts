@@ -1,7 +1,6 @@
 import {head} from "ramda";
 import mapValues from "@unction/mapvalues";
-import {ListType} from "./types";
 
-export default function pairsKeys<A, B> (pairs: ListType<[A, B]>): ListType<A> {
+export default function pairsKeys<A, B> (pairs: ListType<[A, B]>): Array<A> | Set<A> {
   return mapValues(head)(pairs);
 }
